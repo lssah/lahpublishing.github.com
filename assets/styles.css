@@ -1,0 +1,263 @@
+@font-face {
+    font-family: 'lucida_blackletterregular';
+    src: url('lucida_blackletter-webfont.eot');
+    src: url('lucida_blackletter-webfont.eot?#iefix') format('embedded-opentype'),
+         url('lucida_blackletter-webfont.woff') format('woff'),
+         url('lucida_blackletter-webfont.ttf') format('truetype'),
+         url('lucida_blackletter-webfont.svg#lucida_blackletterregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'Bradley Hand ITC TT Bold';
+	src: url('Bradley Hand ITC TT Bold.eot');
+	src: local('â˜º'), url('Bradley Hand ITC TT Bold.woff') format('woff'), url('Bradley Hand ITC TT Bold.ttf') format('truetype'), url('Bradley Hand ITC TT Bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Abadi MT Condensed Extra Bold';
+	src: url('Abadi MT Condensed Extra Bold.eot');
+	src: local('â˜º'), url('Abadi MT Condensed Extra Bold.woff') format('woff'), url('Abadi MT Condensed Extra Bold.ttf') format('truetype'), url('Abadi MT Condensed Extra Bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Abadi MT Condensed Light';
+	src: url('Abadi MT Condensed Light.eot');
+	src: local('☺'), url('Abadi MT Condensed Light.woff') format('woff'), url('Abadi MT Condensed Light.ttf') format('truetype'), url('Abadi MT Condensed Light.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+body{
+	font-family: 'lucida_blackletterregular';
+}
+
+#container{
+	width:790px;
+	margin:0 auto;
+	clear:both;
+	padding-right:10px;
+	padding-left:10px;
+}
+
+h2{
+	font-family: Abadi MT Condensed Extra Bold;
+	text-align: center;
+	font-size: 2em;
+}
+
+h3{
+	font-family: Abadi MT Condensed Extra Bold;
+}
+
+h2 span{
+	font-family: lucida_blackletterregular;
+}
+
+#main{
+	clear:both;
+}
+
+h2.detail{
+	font-size:1.4em;
+}
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	text-decoration: underline;
+}
+
+a.underline{
+	text-decoration: underline;
+}
+
+header{
+	text-align: center;
+	font-size: 1.7em;
+	padding-top: 0.3em;
+	color:black;
+}
+
+header#subpage{
+	text-align: left;
+	font-size: 1.3em;
+}
+
+header#subpage h1{
+	float:left;
+	width:80%;
+	padding-top:0.8em;
+}
+
+header#subpage img{
+	float:right;
+	width:20%;
+}
+
+header a{
+	color: black;
+}
+
+ul.over
+{
+list-style-type: none;
+padding: 0px;
+margin: 0px;
+}
+ul.over li
+{
+	background-image: url(bullet.png);
+
+	background-size: 1.2em;
+background-repeat: no-repeat;
+
+	background-position: 0; 
+
+	padding-left: 1.5em; 
+
+	padding-top: 1em;
+	padding-bottom:1em;
+	font-size: 1.5em;
+}
+
+nav{
+    width: 50%;
+    display: block;
+    float: left;
+    font-family: Bradley Hand ITC TT Bold;
+}
+
+nav#events{
+    width: 100%;
+    display: block;
+    font-family: Abadi MT Condensed Light;
+    font-size: 0.75em;
+}
+
+nav#events span, #main b{
+	font-family: Abadi MT Condensed Extra Bold;
+}
+
+#logo{
+    width: 50%;
+    display: block;
+    float: right;
+}
+
+#logo img{
+	width:100%;
+}
+
+footer{
+	clear:both;
+	text-align: center;
+	padding-top:20px;
+	font-family: Abadi MT Condensed Extra Bold;
+	font-size: 2.5em;
+}
+
+#main{
+	font-family: Abadi MT Condensed Light;
+	font-size:1.3em;
+}
+
+#main ul li{
+	font-size:1.3em;
+}
+
+#main.book_detail{
+	text-align:center;
+	line-height: 2em;
+}
+
+
+#main.book_inside img{
+	width:100%;
+}
+
+
+header a:hover{
+	text-decoration: none;
+}
+
+.center{
+	display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+
+
+table {
+  border-collapse: collapse;
+  text-align:center;
+}
+table td, table th {
+  border: 1px dashed black;
+  padding:1em;
+}
+table tr:first-child th {
+  border-top: 0;
+}
+table tr:last-child td {
+  border-bottom: 0;
+}
+table tr td:first-child,
+table tr th:first-child {
+  border-left: 0;
+}
+table tr td:last-child,
+table tr th:last-child {
+  border-right: 0;
+}
+
+
+
+.book_inside img{
+border: solid black 5px;
+}
+
+
+.left{
+float:left;
+}
+
+.right{
+float:right;
+}
+
+.social a{
+clear:both;
+}
+
+.social{
+text-align: center;
+}
+
+.clear{
+clear:both;
+}
+
+img.books{
+float:right;
+padding:10px;
+}
+
+.bookContainer h3{
+clear:both;
+}
+
+
+.soldout {
+font-size: 1.3em;
+}
