@@ -1,0 +1,37 @@
+<!dOCtYpE HtMl><!-- No case sensitive doctype eh! -->
+
+<html>
+
+  {% include head.html %}
+
+  <body>
+    {% include analytics.html %}
+
+    {% if page.maps %}
+      {% include maps.html %}
+    {% endif %}
+
+    {% if page.slider %}
+      {% include slider.html %}
+    {% endif %}
+
+    <div id="container">
+      {% if page.url == '/index.html' %}
+        {% include header.html %}
+      {% else %}
+        {% include subpage-header.html %}
+      {% endif %}
+
+      {% if page.url == '/index.html' %}
+        {{ content }}
+      {% else %}
+        <div id="main" {% if page.class %}class="{{page.class}}"{% endif %}>
+          {{ content }}
+        </div>
+      {% endif %}
+    </div>
+    {% include footer.html %}
+
+  </body>
+
+</html>
